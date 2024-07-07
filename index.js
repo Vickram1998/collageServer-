@@ -11,6 +11,11 @@ mongoose.connect('mongodb+srv://vikramsingh2541997:vickram@cluster0.bhpmpvl.mong
 .catch(err => console.log('Failed to connect to MongoDB:', err));
 
 
+app.use(cors({
+    origin: 'https://collageportel.netlify.app/', 
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+}));
 app.use(cors());
 app.use(express.json())
 
