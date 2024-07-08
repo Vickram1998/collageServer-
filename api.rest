@@ -1,0 +1,16 @@
+# GET http://localhost:8080/students/all
+
+
+
+POST  http://localhost:8080/students/add
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name":"Vickram Bundela",
+    "email":"vikram455@gmail.com",
+    "rollnumber":"5645",
+    "age":22,
+    "gender":"male"
+
+}

@@ -12,7 +12,7 @@ mongoose.connect('mongodb+srv://vikramsingh2541997:vickram@cluster0.bhpmpvl.mong
 
 
 app.use(cors({
-    origin: 'https://collageportel.netlify.app/', 
+    origin: 'https://collage-server.netlify.app', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 }));
